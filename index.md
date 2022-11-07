@@ -1,5 +1,2 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Hi! I'm Luciano Garcia Zeman. This is a very simple blog where I publish some toughts about software development and companies
+Let's start!

@@ -1,0 +1,3 @@
+The bus factor is the minimum number of team members that have to be removed from the team to block the project due to a lack of qualified staff.
+
+To be continued...

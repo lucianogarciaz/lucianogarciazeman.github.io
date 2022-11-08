@@ -1,4 +1,4 @@
-# Definition
+# Pair Programming
 
 Pair programming is an investment.
 

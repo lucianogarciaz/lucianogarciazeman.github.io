@@ -1,4 +1,4 @@
-# Pair Programming
+# Pair Programming as a technical investment
 
 Pair programming is an investment.
 

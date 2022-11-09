@@ -1,68 +1,34 @@
-# Investment
+# Software Investment  
 
-### Definition
+If your business is like most, you’re always looking for ways to improve efficiency and cut costs. One area you may not have considered is your software investment. Just like any other business asset, your software needs to be managed properly to get the most out of it.
 
-**An investment means spending money now for a supposed future benefit.**
+Before we define what is a software investment, let’s start by understanding what is an investment and its key components. 
+An investment requires putting capital to work, in the form of time, money, effort, etc. in hopes of a greater payoff in the future than what was originally put in.
+Some key components are risk, profit, cost and time to market (the time it takes from when you start developing a product until it is on sale).
 
-Three key variables:
+## So what’s software investment? 
+Software investment is a set of techniques and practices combined with engineering effort looking for a future benefit. 
 
-- Profitability
-- Risk
-- Liquidity
+## How we do a correct investment? 
+As with any investment and everything in life, it always depends on your particular context. Kent Beck differentiated them between **explore**, **expand** and **extract** 
 
-↑ profitability ⇒ ↓ risk and liquidity
+> Explore — to overcome disinterest, try many small experiments. <br>
+> Expand — to overcome bottlenecks to scaling, and ease the limitations of the next rate-limiting resource. <br>
+> Extract — to sustain growth, continually increase profitability while you finish growing. <br>
 
-More profitability means more risk. More risk means uncertainty. It would be best if you never assign all your assess to something uncertain.
+* In explore phase, your investment is volatile because your risk can be high and your time to market can be low as well. At this point, it’s interesting to deliver now, but you will have to handle the manual tasks and will not scale in many processes. 
+* In expand phase, you start to invest more in your product/company because your risk is lower and the problems are focused on scaling your prototype. 
+* In the extract phase, you focus on cutting costs and maximising revenue. 
 
-## Lack of investment vs technical debt
+Each phase (context) will have a different set of suitable techniques. In this post, we will not deep dive because the number of techniques and practices available is huge, but sure a few of these will catch your attention: 
+* Software practices like ensemble programming, TDD, BDD, DDD 
+* Product definition/discovery like MVP, vertical slice and event storming. 
+* Engineering culture like learning hours, and discovery sprints (in Typeform we call it hive sprint, it’s two weeks sprint where every employee can work on developing new products, processes, etc).
+* Any other agile practice you can imagine.
 
-> The technical debt metaphor treats the cruft as a debt, whose interest payments are the extra effort these changes require
+In conclusion, you can not run away from doing an investment. It’s always important to understand your context, and what are the best practices and tools you have available trying to decrease the risk and maximise profit.
 
-Martin Fowler
-> 
-
-There are two ways of technical debt:
-
-- Lack of investment
-- Distribute the investment of a feature over time.
-
-Note aside: **nothing justify shit code**.
-
-### Distribute investment of a feature over time
-
-Build a feature that may cause manual tasks, but it will be removed in the future. In the beginning, you can handle having manual tasks but will not scale in many of the processes.
-
-### Lack of Investment
-
-It's like a mortgage. You can get the money and start getting the benefits now and pay interest. Or save the money until you have collected all and start getting the benefits without paying interest.
-
-Here you will always end having two ways of paying the debt:
-
-- **Short term:** Delivery now and in the future will end developing the feature/product. In the meanwhile, you will have to pay interests.
-- **Long term:** Invest in design/architecture, and then the new features will be easier to be developed.
-
-You can't run away from debt. You will have to balance between the two options wisely.
-
-# Profitability
-
-Economic profitability measures **the rate of return of the investment** produced by a financial benefit concerning total capital.
-
-# Return of Investment
-
-Return of Investment is a way to measure profitability.
-
-ROI = (Benefit - Investment) / investment
-
-# Liquidity
-
-Liquidity refers to the efficiency or ease with which an asset can be converted into ready cash without affecting its market price. The most liquid asset of all is cash itself.
-
-In software, we should do small deliveries because it allows us to reassign in each delivery. Thus, focusing on what add more value
-
-# Time to market
-
-It is time it takes from when you start developing a product until it is on sale. If you are faster than your competition, you are more competitive and have more opportunities
-
-# Risk
-
-Financial risk is the probability of an adverse event happens and its consequences. The analysis of the risk in any investment is KEY
+References:<br>
+[Kent beck post](https://medium.com/@kentbeck_7670/fast-slow-in-3x-explore-expand-extract-6d4c94a7539) <br>
+[Eduardo Ferro, El patadón pa'lante](https://www.youtube.com/watch?v=vEr2xbNoUxM&ab_channel=Autentia) <br>
+[Luis Artola: Software economics](https://luisartola.es/) <br>
